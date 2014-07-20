@@ -26,6 +26,7 @@ class Ajax extends CController
 
 echo 777;
             print_r($month);
+            $days = Yii::app()->request->getPost('d');
             Yii::app()->end();
 
 
