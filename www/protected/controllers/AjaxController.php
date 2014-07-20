@@ -14,7 +14,6 @@ class Ajax extends CController
         );
     }
     public function actionIndex(){
-var_dump(456);die();
 
         if(Yii::app()->request->isAjaxRequest){
 
@@ -23,7 +22,7 @@ var_dump(456);die();
             $year = Yii::app()->request->getPost('y');
             $days = Yii::app()->request->getPost('d');
             $start=$year.'-'.$month.'-'.$days[0];
-var_dump(123);die();
+
 
 
 
