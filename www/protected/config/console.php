@@ -22,6 +22,7 @@ return array(
 			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
+            'tablePrefix'=>'gr_',
 		),
 
 		'log'=>array(
