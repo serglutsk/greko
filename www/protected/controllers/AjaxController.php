@@ -8,11 +8,7 @@
 class Ajax extends CController
 {
 
-    public function filters() {
-        return array(
-            'ajaxOnly + index',
-        );
-    }
+   
     public function actionIndex(){
 
         if(Yii::app()->request->isAjaxRequest){
