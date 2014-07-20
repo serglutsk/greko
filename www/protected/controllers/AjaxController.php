@@ -15,7 +15,9 @@ class Ajax extends CController
     }
     public function actionIndex(){
 var_dump(456);die();
-
+if('i'=='i'){
+    $hhjhjh=5;
+}
         if(Yii::app()->request->isAjaxRequest){
 
             $month = Yii::app()->request->getPost('m');
