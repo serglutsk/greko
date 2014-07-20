@@ -24,7 +24,7 @@ class Ajax extends CController
 
 echo 12345;
 
-
+echo 777;
             Yii::app()->end();
 
 
