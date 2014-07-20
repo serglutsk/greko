@@ -22,9 +22,10 @@ class Ajax extends CController
             $start=$year.'-'.$month.'-'.$days[0];
 
 
-echo 12345;
+
 
 echo 777;
+            print_r($month);
             Yii::app()->end();
 
 
